@@ -1,0 +1,12 @@
+[connection]
+id=usb0-dhcp
+type=ethernet
+interface-name=usb0
+autoconnect-priority=10
+autoconnect-retries=2
+
+[ipv4]
+dns-search=
+method=auto
+dhcp-timeout=10
+may-fail=false
